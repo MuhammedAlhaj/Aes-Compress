@@ -8,7 +8,7 @@
     <owners>Joseph Cutrono</owners>
     <licenseUrl>https://github.com/jcutrono/Aes-Compress/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/jcutrono/Aes-Compress</projectUrl>
-    <iconUrl></iconUrl>
+    <iconUrl>https://github.com/jcutrono/Aes-Compress/blob/master/j_black.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Aes-Compress combines GZip compression with Aes encryption. The library has only a few methods.</description>
     <releaseNotes></releaseNotes>
