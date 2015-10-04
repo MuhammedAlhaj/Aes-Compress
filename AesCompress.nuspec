@@ -16,6 +16,6 @@
     <tags>gzip aes</tags>
   </metadata>
   <files>
-	<file src="AesCompress\bin\$configuration$\AesCompress.dll" target="lib\net40\" />
+	<file src="AesCompress\bin\$configuration$\AesCompress.dll" target="" />
   </files>
 </package>

@@ -18,8 +18,6 @@ if "%nuget%" == "" (
 
 %WINDIR%\Microsoft.NET\Framework\v4.0.30319\msbuild AesCompress.sln /p:Configuration="%config%" /m /v:M /fl /flp:LogFile=msbuild.log;Verbosity=diag /nr:false
 
-mkdir Build
-mkdir Build\lib
-mkdir Build\lib\net40
+dir AesCompress\bin\Release
 
-%nuget% pack "AesCompress.nuspec" -NoPackageAnalysis -verbosity detailed -o Build -Version %version% -p Configuration="%config%"
+%nuget% pack "AesCompress.nuspec" -NoPackageAnalysis -verbosity detailed -Version %version% -p Configuration="%config%"
