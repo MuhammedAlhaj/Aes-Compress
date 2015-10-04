@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Aes-Compress</id>
+    <version>$version$</version>
+    <title>Aes-Compress</title>
+    <authors>Joseph Cutrono</authors>
+    <owners>Joseph Cutrono</owners>
+    <licenseUrl>https://github.com/jcutrono/Aes-Compress/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/jcutrono/Aes-Compress</projectUrl>
+    <iconUrl></iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Aes-Compress combines GZip compression with Aes encryption. The library has only a few methods.</description>
+    <releaseNotes></releaseNotes>
+    <copyright></copyright>
+    <tags>gzip aes</tags>
+  </metadata>
+  <files>
+	<file src="AesCompress\bin\$configuration$\AesCompress.dll" target="lib\net40\" />
+  </files>
+</package>
