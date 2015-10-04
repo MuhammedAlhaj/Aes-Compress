@@ -2,6 +2,7 @@
 
 *.exe
 *.suo
+*.log
 bin/
 obj/
 packages/
