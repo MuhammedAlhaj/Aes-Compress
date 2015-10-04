@@ -1,0 +1,7 @@
+/.vs
+
+*.exe
+*.suo
+bin/
+obj/
+packages/
