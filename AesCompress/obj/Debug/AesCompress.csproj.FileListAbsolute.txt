@@ -1,4 +1,0 @@
-C:\Projects\Aes-Compress\AesCompress\bin\Debug\AesCompress.dll
-C:\Projects\Aes-Compress\AesCompress\bin\Debug\AesCompress.pdb
-C:\Projects\Aes-Compress\AesCompress\obj\Debug\AesCompress.dll
-C:\Projects\Aes-Compress\AesCompress\obj\Debug\AesCompress.pdb
