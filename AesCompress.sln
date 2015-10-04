@@ -7,6 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AesCompress", "AesCompress\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Files", "Solution Files", "{8AF9DF91-3C65-488E-AFB4-E7810B78B357}"
 	ProjectSection(SolutionItems) = preProject
+		build.bat = build.bat
 		LICENSE = LICENSE
 		README.md = README.md
 	EndProjectSection
