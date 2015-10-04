@@ -14,7 +14,7 @@ if "%nuget%" == "" (
 	set nuget=nuget
 )
 
-nuget restore AesCompress.sln
+%nuget% restore AesCompress.sln
 
 %WINDIR%\Microsoft.NET\Framework\v4.0.30319\msbuild AesCompress.sln /p:Configuration="%config%" /m /v:M /fl /flp:LogFile=msbuild.log;Verbosity=diag /nr:false
 
