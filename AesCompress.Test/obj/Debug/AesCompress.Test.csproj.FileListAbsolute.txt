@@ -1,9 +1,0 @@
-C:\Projects\Aes-Compress\AesCompress.Test\bin\Debug\AesCompress.Test.dll
-C:\Projects\Aes-Compress\AesCompress.Test\bin\Debug\AesCompress.Test.pdb
-C:\Projects\Aes-Compress\AesCompress.Test\bin\Debug\AesCompress.dll
-C:\Projects\Aes-Compress\AesCompress.Test\bin\Debug\nunit.framework.dll
-C:\Projects\Aes-Compress\AesCompress.Test\bin\Debug\AesCompress.pdb
-C:\Projects\Aes-Compress\AesCompress.Test\bin\Debug\nunit.framework.xml
-C:\Projects\Aes-Compress\AesCompress.Test\obj\Debug\AesCompress.Test.csprojResolveAssemblyReference.cache
-C:\Projects\Aes-Compress\AesCompress.Test\obj\Debug\AesCompress.Test.dll
-C:\Projects\Aes-Compress\AesCompress.Test\obj\Debug\AesCompress.Test.pdb
