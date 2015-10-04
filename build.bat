@@ -3,10 +3,10 @@ set config=%1
 if "%config%" == "" (
    set config=Release
 )
- 
-set version=1.0.0
+
+set version=
 if not "%PackageVersion%" == "" (
-   set version=%PackageVersion%
+   set version=-Version %PackageVersion%
 )
 
 set nuget=
@@ -16,8 +16,9 @@ if "%nuget%" == "" (
 
 %nuget% restore AesCompress.sln
 
-%WINDIR%\Microsoft.NET\Framework\v4.0.30319\msbuild AesCompress.sln /p:Configuration="%config%" /m /v:M /fl /flp:LogFile=msbuild.log;Verbosity=diag /nr:false
+REM Build
+%WINDIR%\Microsoft.NET\Framework\v4.0.30319\msbuild AesCompress.sln /p:Configuration="%config%" /m /v:M /fl /flp:LogFile=msbuild.log;Verbosity=Normal /nr:false
 
-dir AesCompress\bin\Release
-
-%nuget% pack "AesCompress.nuspec" -NoPackageAnalysis -verbosity detailed -Version %version% -p Configuration="%config%"
+REM Package
+mkdir Build
+call %nuget% pack "AesCompress\AesCompress.csproj" -symbols -o Build -p Configuration=%config% %version%
